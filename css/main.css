@@ -1,0 +1,55 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather', serif;*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 1920px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+}
+
+/*@media screen and (max-width: 992px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+}*/
+
+@media screen and (max-width: 768px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 80%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
+.Main_Heading {
+  font-family: 'Merriweather', serif;
+}
